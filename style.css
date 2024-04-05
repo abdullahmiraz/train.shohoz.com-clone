@@ -2,3 +2,20 @@
   cursor: pointer;
 }
 
+.card-img-top {
+  height: 200px;
+}
+.card {
+  border: 0;
+}
+
+.instruction-list {
+  list-style-type: none;
+}
+.instruction-list li {
+  display: flex;
+}
+.instruction-list li :first-child {
+  margin-right: 0.4rem;
+  border-radius: 50%;
+}
